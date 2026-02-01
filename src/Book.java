@@ -13,13 +13,13 @@ public Book(int bookNumber, String title, String author) {
     this.checkedOut = false;
 }
 public void displayBook() {
-    System.out.println(bookNumber + " " + title + " " + author + " " + (checkedOut ? "1" : "0"));
+    System.out.println(bookNumber + ". Title: " + title + ", Author: " + author + ", Checked Out: " + (checkedOut ? "Yes" : "No"));
 }
 
 public void checkOut() {
     if (!checkedOut) {
         checkedOut = true;
-        System.out.println("Book checked out successfully!");
+        System.out.println("Book checked out!");
     } else {
         System.out.println("Book already checked out!");
     }
@@ -28,7 +28,7 @@ public void checkOut() {
     public void returnBook() {
         if (checkedOut) {
             checkedOut = false;
-            System.out.println("Book returned successfully!");
+            System.out.println("Book returned!");
         } else {
             System.out.println("Book was not checked out!");
         }
