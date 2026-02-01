@@ -1,5 +1,3 @@
-package assn02;
-
 public class Book {
     int bookNumber;
     String title;
