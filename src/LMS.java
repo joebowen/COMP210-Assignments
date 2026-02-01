@@ -24,8 +24,7 @@ public class LMS {
             scanner.nextLine();
 
             switch (choice) {
-                case 0:
-                    System.out.println("See you soon :0");  
+                case 0: 
                     exit = true;
                     break;
 
