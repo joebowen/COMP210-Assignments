@@ -18,7 +18,7 @@ public class LMS {
             System.out.println("3. Check Out a Book");
             System.out.println("4. Return a Book");
             System.out.print("Enter your choice: ");
-            System.out.println("Thank you for visiting!:");
+            
 
             int choice = scanner.nextInt();
             scanner.nextLine();
@@ -51,7 +51,7 @@ public class LMS {
 
         }
     }
-
+    System.out.println("Thank you for visiting!");
     scanner.close();
 }
 
